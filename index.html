@@ -1,0 +1,92 @@
+---
+layout: page
+type: home
+---
+<!-- -------------------------------------------- -->
+<!-- About Section -->
+<!-- -------------------------------------------- -->
+<div class="row" id="about">
+  <div class="col-xs-12 col-md-4 portrait">
+    <img class="portrait-img" src="{{ site.url }}{{ site.baseurl }}/assets/img/portrait.jpg" alt="Responsive image">
+
+    <div class="portrait-content">
+      <h1><small>{{ site.author.name }}</small></h1>
+      <h3><small class="text-muted">{{ site.author.jobTitle }}</small></h3>
+      <h3><a href="{{ site.author.orgURL }}" target="_blank"><small>{{ site.author.orgName }}</small></a></h3>
+    </div>
+
+    <div class="social-content">
+      <h2>
+        <a href="{{ site.url }}/files/cv.pdf" class="social-icon" target="_blank"><i class="fas fa-file"></i></a>
+        <a href="mailto:{{ site.social-accounts.facebook }}" class="social-icon" target="_blank"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/{{ site.social-accounts.github }}" class="social-icon" target="_blank"><i class="fab fa-github-alt"></i></a>
+        <a href="https://www.facebook.com/{{ site.social-accounts.facebook }}" class="social-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/{{ site.social-accounts.linkedin }}" class="social-icon" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </h2>
+    </div>
+    <br><br>
+  </div>
+
+  <div class="col-xs-12 col-md-8">
+
+    <h1 class="post-title display-4">About Me</h1>
+    <div class="post-content ">
+      <p>{% include about.md %}</p>
+    </div>
+    <br>
+    <div class="row">
+
+      <div class="col-sm-5">
+        <h2 class="post-title display-5">Interests</h2>
+        <ul class="post-content ">
+          {% for int in site.data.interests %}
+			         <li>{{ int.name }}</li>
+	        {% endfor %}
+        </ul>
+      </div>
+
+      <div class="col-sm-7">
+        <h2 class="post-title display-5">Education</h2>
+        <ul class="fa-ul post-content ">
+          {% for edu in site.data.education %}
+            <li>
+              <i class="fa-li fa fa-graduation-cap"></i>
+              <p class="course">{{ edu.course }}<br>
+              <small class="text-muted">{{ edu.institution }}</small></p>
+            </li>
+	        {% endfor %}
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- -------------------------------------------- -->
+<!-- Project Section -->
+<!-- -------------------------------------------- -->
+<section class="border-top" id="projects"></section>
+<div class="row">
+  <div class="col-xs-12 col-md-4 portrait">
+    <h1 class="post-title display-4">Projects</h1>
+    <p class="text-muted">work in progress...</p>
+    <br><br>
+  </div>
+
+  <div class="col-xs-12 col-md-8">
+    {% for projects in site.categories.projects %}
+      <div class="project">
+        <div class="project-header">
+          <a href="{{ site.baseurl }}{{ projects.url }}" target="_blank" class="project-footer">
+            <h4 class="project-title">{{ projects.title }}</h4>
+          </a>
+          <!-- <h4 class="project-date"><small class="text-muted">{{ post.date | date: "%B %-d, %Y" }}</small></h4> -->
+        </div>
+        <div class="project-content">
+          <p>{{ projects.abstract }}</p>
+        </div>
+
+      </div>
+    {% endfor %}
+  </div>
+</div>

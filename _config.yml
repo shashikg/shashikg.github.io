@@ -1,0 +1,32 @@
+title: Shashi Kant
+description: "My Homepage"
+url: "https://shashikg.github.io"
+
+# paginate: 5
+# paginate_path: "/page:num/"
+# plugins: [jekyll-paginate]
+
+markdown: kramdown
+highlighter: rouge
+
+social-accounts:
+  facebook: "shashikg.iitk"
+  twitter: "shashikg_iitk"
+  youtube: "UCD1ELtVIfZnmIGbfVT9bHXQ"
+  googleplus: "101058871085746328098"
+  github: "shashikg"
+  email: "shashikg@iitk.ac.in"
+  linkedin: "in/shashikg"
+
+author:
+  name: "Shashi Kant"
+  jobTitle: "Third Year UnderGraduate, EE"
+  orgName: "IIT Kanpur"
+  orgURL: "https://www.iitk.ac.in/"
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# google_analytics:
+# disqus_shortname:

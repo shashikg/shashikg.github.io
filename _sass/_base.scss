@@ -1,0 +1,106 @@
+body {
+  padding-top: 5rem;
+}
+
+#about {
+  padding: 2rem 0rem;
+}
+
+#projects {
+  padding: 2rem 0rem;
+}
+
+.project {
+  margin-bottom: 1.5rem;
+}
+.project-header{
+
+}
+.project-tag{
+
+}
+.project-nav {
+  padding: 0.6rem;
+  text-align: center;
+}
+.project-tag-content {
+}
+.project-title {
+  margin-bottom: 0;
+}
+.project-content {
+  padding-top: 0.5rem;
+  font-size: 1rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.project-footer {
+  padding-top: 0.7rem;
+}
+
+.post {
+  margin-bottom: 1.5rem;
+}
+.post-header{
+
+}
+.post-tag{
+
+}
+.post-nav {
+  padding: 0.6rem;
+  text-align: center;
+}
+.post-tag-content {
+  // margin-right: 0.2rem;
+}
+.post-title {
+  // padding-bottom: 0.5rem;
+  margin-bottom: 0;
+}
+.post-content {
+  // padding: 0;
+  padding-top: 0.7rem;
+  font-size: 1.15rem;
+  // font-weight: 4.5;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.post-footer {
+  padding-top: 0.7rem;
+}
+.hero {
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+footer {
+  margin-top: 5rem;
+}
+
+.footer-content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.social-content {
+  padding-top: 1rem;
+}
+
+.social-icon {
+  text-decoration: none;
+  margin-left: 0.35rem;
+}
+
+.portrait-img {
+  margin-top: 1.3rem;
+  margin-bottom: 1rem;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.portrait {
+  text-align: center;
+}

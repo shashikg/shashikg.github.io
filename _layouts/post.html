@@ -1,0 +1,20 @@
+---
+layout: post-page
+---
+<div class="hero">
+  <h1 class="display-5">{{ page.title }}</h1>
+  <h4 class=""><small class="text-muted">{{ page.date | date: "%B %-d, %Y" }}</small></h4>
+  <h4>
+    <a href="{{ site.baseurl }}{{ page.previous.url }}" class="post-nav" data-toggle="tooltip" data-placement="left" title="{{ page.previous.title }}"><i class="fas fa-arrow-left"></i></a>
+    <a href="{{ site.url }}{{ site.baseurl }}/projects" class="post-nav"><i class="fas fa-home"></i></a>
+    <a href="{{ site.baseurl }}{{ page.next.url }}" class="post-nav" data-toggle="tooltip" data-placement="right" title="{{ page.next.title }}"><i class="fas fa-arrow-right"></i></a>
+  </h4>
+</div>
+
+<div class="post border-top">
+  <div class="post-content lead">
+    <p>{{ page.content }}</p>
+  </div>
+</div>
+
+<div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="100%" data-numposts="5"></div>
