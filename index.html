@@ -69,16 +69,16 @@ type: home
 <div class="row">
   <div class="col-xs-12 col-md-4 portrait">
     <h1 class="post-title display-4">Projects</h1>
-    <p class="text-muted">work in progress...</p>
+    <!-- <p class="text-muted">work in progress...</p> -->
     <br><br>
   </div>
 
   <div class="col-xs-12 col-md-8">
     {% for projects in site.categories.projects %}
-      <div class="project">
+      <div class="project border-bottom">
         <div class="project-header">
           <a href="{{ site.baseurl }}{{ projects.url }}" target="_blank" class="project-footer">
-            <h4 class="project-title">{{ projects.title }}</h4>
+            <h5 class="project-title">{{ projects.title }}</h5>
           </a>
           <!-- <h4 class="project-date"><small class="text-muted">{{ post.date | date: "%B %-d, %Y" }}</small></h4> -->
         </div>
