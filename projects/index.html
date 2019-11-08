@@ -1,0 +1,23 @@
+---
+layout: page
+---
+<div class="hero">
+  <h1 class="display-3">All Projects</h1>
+  <p class="lead">The true sign of intelligence is not knowledge but imagination. - Albert Einstein</p>
+</div>
+
+<!-- This loops through the paginated posts -->
+{% for post in site.categories.projects %}
+  <div class="project border-top">
+    <div class="project-header">
+      <h1 class="project-title">{{ post.title }}</h1>
+      <h4 class="project-date"><small class="text-muted">{{ post.date | date: "%B %-d, %Y" }}</small></h4>
+    </div>
+    <div class="project-content lead">
+      <p>{{ post.excerpt }}</p>
+    </div>
+    <a href="{{ site.baseurl }}{{ post.url }}" class="project-footer">
+      <button type="button" class="btn btn-outline-primary">READ MORE</button>
+    </a>
+  </div>
+{% endfor %}
