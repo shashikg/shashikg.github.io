@@ -1,0 +1,29 @@
+---
+layout: page
+---
+<div class="hero">
+  <h1 class="display-3">Online Courses Certificates</h1>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Course Name</th>
+        <th scope="col">Certificate</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% assign i = 1 %}
+      {% for course in site.data.online-course %}
+        <tr>
+          <th scope="row">{{i}}</th>
+          <td> {{course.name}} </td>
+          <td> <a href="{{course.link}}" target="_blank">Verify</a> </td>
+        </tr>
+        {% assign i = i | plus:1 %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
