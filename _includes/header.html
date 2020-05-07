@@ -10,19 +10,19 @@
         <a class="nav-link active" href="{{ site.url }}">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://shashikg.github.io/blog/">Blog</a>
+        <a class="nav-link" href="{{ site.url }}/blog/">Blog</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="{{ site.url }}/files/cv.pdf" target="_blank">CV</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://poetrybyska.blogspot.com/" target="_blank">My Pen</a>
+        <a class="nav-link" href="{{ site.url }}/projects/">Project List</a>
       </li>
     </ul>
 
     {% if page.type == 'home' %}
       <a class="nav-link" href="#">About</a>
-      <a class="nav-link" href="/#projects">Projects</a>
+      <a class="nav-link" href="/#acad-projects">Projects</a>
     {% else %}
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">

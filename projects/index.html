@@ -7,7 +7,7 @@ layout: page
 </div>
 
 <!-- This loops through the paginated posts -->
-{% for post in site.categories.projects %}
+<!-- {% for post in site.categories.projects %}
   <div class="project border-top">
     <div class="project-header">
       <h1 class="project-title">{{ post.title }}</h1>
@@ -20,4 +20,23 @@ layout: page
       <button type="button" class="btn btn-outline-primary">READ MORE</button>
     </a>
   </div>
-{% endfor %}
+{% endfor %} -->
+
+<div class="row justify-content-md-center">
+  <div class="col-xs-12 col-md-9">
+    {% for post in site.categories.projects %}
+        <div class="project bg-light">
+          <div class="project-header border-bottom">
+            <h2 class="project-title">{{ post.title }}</h2>
+            <p class="text-secondary post-date"><small>{{ post.date | date: "%B %-d, %Y" }}</small></p>
+          </div>
+          <div class="project-content lead">
+            <p>{{ post.abstract }}</p>
+          </div>
+          <a href="{{ site.baseurl }}{{ post.url }}" class="project-footer">
+            <button type="button" class="btn btn-outline-dark">Read More</button>
+          </a>
+        </div>
+    {% endfor %}
+  </div>
+</div>
