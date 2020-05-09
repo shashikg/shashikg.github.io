@@ -7,18 +7,92 @@ body {
   padding-bottom: 0rem;
 }
 
-// #projects {
-//   padding: 1rem 0rem;
-// }
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// Homepage news items >>>>>>>>>>>>>>>>
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+.news-item-hm {
+  margin-bottom: 1rem;
+  // text-align: left;
+}
+
+#news-hm {
+  margin-top: 0rem;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+}
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// Homepage project >>>>>>>>>>>>>>>>>>>
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+.project-title-hm {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-hm-card {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+}
+
+.project-header-hm-card{
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.project-nav-hm-card {
+  padding: 0.6rem;
+  text-align: center;
+}
+
+.project-title-hm-card {
+  margin-bottom: 0;
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.project-content-hm-card {
+  font-size: 1rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
 
 #acad-projects{
   margin-bottom: 2rem;
 }
 
-.project-title-hm {
-  padding: 2rem;
-  margin-bottom: 1.5rem;
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// Homepage about sidebar >>>>>>>>>>>>>
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+.social-content {
+  // padding-top: 1rem;
 }
+
+.social-icon {
+  text-decoration: none;
+  // margin-left: 0.35rem;
+}
+
+.portrait-img {
+  margin-top: 1.3rem;
+  margin-bottom: 0rem;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.portrait {
+  text-align: center;
+}
+
+.abt-sidebar {
+  padding: 1rem 1rem;
+}
+
 .project {
   margin-bottom: 1.5rem;
 }
@@ -75,7 +149,7 @@ body {
 .post-content {
   // padding: 0;
   padding-top: 0.7rem;
-  font-size: 1.15rem;
+  font-size: 1rem;
   // font-weight: 4.5;
   text-align: justify;
   text-justify: inter-word;
@@ -95,43 +169,6 @@ footer {
 .footer-content {
   padding: 2rem;
   text-align: center;
-}
-
-.social-content {
-  padding-top: 1rem;
-}
-
-.social-icon {
-  text-decoration: none;
-  margin-left: 0.35rem;
-}
-
-.portrait-img {
-  margin-top: 1.3rem;
-  margin-bottom: 1rem;
-  width: 230px;
-  height: 230px;
-  border-radius: 50%;
-  background-size: cover;
-}
-
-.portrait {
-  text-align: center;
-}
-
-.abt-sidebar {
-  padding: 1rem 1rem;
-  // margin-top: 1rem;
-}
-
-.news-item {
-  margin-bottom: 1rem;
-  // text-align: left;
-}
-
-#news {
-  margin-top: 1.5rem;
-  padding: 1.5rem 1rem;
 }
 
 .project {
@@ -167,4 +204,18 @@ footer {
 
 .post-date {
   margin-bottom: 0rem;
+}
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// Homepage artworks  >>>>>>>>>>>>>>>>>
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+.artworks-title-hm {
+  padding: 1.5rem;
+  margin-bottom: 0rem;
+}
+
+.photo-grid {
+  padding: 0rem 1.3rem;
+  padding-bottom: 1.5rem;
 }

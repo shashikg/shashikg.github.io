@@ -28,12 +28,11 @@ type: home
       </div>
     </div>
 
-    <div id="news" class="bg-light">
+    <div id="news-hm" class="bg-light">
       <h1><small>News</small></h1>
-      <br>
       {% assign i = 1 %}
       {% for news in site.data.news %}
-        <div class="news-item">
+        <div class="news-item-hm">
           <small class="">[ {{ news.date }} ]</small><br>
           <p class="text-secondary">{{ news.title }}</p>
         </div>
@@ -47,7 +46,7 @@ type: home
 
   <div class="col-xs-12 col-md-8">
     <h1 class="about-title display-6">About Me</h1>
-    <div class="post-content ">
+    <div class="post-content">
       <p>{% include about.md %}</p>
     </div>
     <div class="row">
@@ -76,7 +75,6 @@ type: home
   </div>
 </div>
 
-
 <!-- -------------------------------------------- -->
 <!-- Project Section -->
 <!-- -------------------------------------------- -->
@@ -85,47 +83,39 @@ type: home
   <div class="col-xs-12 col-md-12 portrait">
     <div class="project-title-hm bg-light">
       <h1 class="display-6">Projects</h1>
+      <p style="margin-bottom: 0.5rem; font-size: 1rem" class="lead text-secondary">For a complete list, kindly check this <a href="{{ site.baseurl }}/projects/">page</a></p>
     </div>
   </div>
 
   <div class="col-xs-12 col-md-6">
     {% assign i = 1 %}
     {% for projects in site.categories.projects %}
-      <div class="project bg-light">
-        <div class="project-header border-bottom">
-          <h2 class="project-title">{{ projects.title }}</h2>
+      <div class="project-hm-card bg-light">
+        <div class="project-header-hm-card border-bottom">
+          <h2 class="project-title-hm-card">{{ projects.title }}</h2>
         </div>
-        <div class="project-content lead">
-          <p>{{ projects.abstract }}</p>
+        <div class="project-content-hm-card lead">
+          {{ projects.abstract }} <a href="{{ site.baseurl }}{{ projects.url }}" class="badge badge-secondary">Read More </a>
         </div>
-        <a href="{{ site.baseurl }}{{ projects.url }}" class="project-footer">
-          <button type="button" class="btn btn-outline-dark">Read More</button>
-        </a>
       </div>
       {% assign i = i | plus:1 %}
       {% if i == 3 %}
         {% break %}
       {% endif %}
     {% endfor %}
-    <div class="project bg-light">
-      For a complete list, kindly check this <a href="{{ site.baseurl }}/projects/">page</a>
-    </div>
   </div>
 
   <div class="col-xs-12 col-md-6">
     {% assign i = 1 %}
     {% for projects in site.categories.projects %}
       {% if i > 2 %}
-        <div class="project bg-light">
-          <div class="project-header border-bottom">
-            <h2 class="project-title">{{ projects.title }}</h2>
+        <div class="project-hm-card bg-light">
+          <div class="project-header-hm-card border-bottom">
+            <h2 class="project-title-hm-card">{{ projects.title }}</h2>
           </div>
-          <div class="project-content lead">
-            <p>{{ projects.abstract }}</p>
+          <div class="project-content-hm-card lead">
+            {{ projects.abstract }} <a href="{{ site.baseurl }}{{ projects.url }}" class="badge badge-secondary">Read More </a>
           </div>
-          <a href="{{ site.baseurl }}{{ projects.url }}" class="project-footer">
-            <button type="button" class="btn btn-outline-dark">Read More</button>
-          </a>
         </div>
       {% endif %}
       {% assign i = i | plus:1 %}
@@ -133,5 +123,33 @@ type: home
         {% break %}
       {% endif %}
     {% endfor %}
+  </div>
+</div>
+
+<!-- -------------------------------------------- -->
+<!-- Artworks Section -->
+<!-- -------------------------------------------- -->
+<section id="artworks"></section>
+<div class="row border">
+  <div class="col-xs-12 col-md-12 portrait">
+    <div class="artworks-title-hm">
+      <h1 class="display-6">Artworks</h1>
+      <p style="margin-bottom: 0.5rem; font-size: 1rem" class="lead text-secondary">For a complete list, kindly check this <a href="{{ site.baseurl }}/artworks/">page</a></p>
+    </div>
+  </div>
+  <div class="photo-grid card-columns col-xs-12 col-md-12">
+  {% assign i = 1 %}
+  {% for artwork in site.data.artworks %}
+      <div class="photo-card card">
+        <img class="card-img-top" src="{{ site.baseurl }}/artwork/thumb/{{artwork.name}}" alt="Card image cap">
+        <div class="card-body">
+          <center><p class="card-text">{{ artwork.text }}</p></center>
+        </div>
+      </div>
+    {% assign i = i | plus:1 %}
+    {% if i == 7 %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
   </div>
 </div>
