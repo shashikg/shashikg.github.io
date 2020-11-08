@@ -33,11 +33,10 @@ type: home
       {% assign i = 1 %}
       {% for news in site.data.news %}
         <div class="news-item-hm">
-          <small class="">[ {{ news.date }} ]</small><br>
-          <p class="text-secondary">{{ news.title }}</p>
+         <div class="text-secondary"><b>{{ news.date }}</b> | {{ news.title }}</div>
         </div>
         {% assign i = i | plus:1 %}
-        {% if i == 4 %}
+        {% if i == 6 %}
           {% break %}
         {% endif %}
       {% endfor %}
@@ -76,14 +75,39 @@ type: home
 </div>
 
 <!-- -------------------------------------------- -->
+<!-- Publications Section -->
+<!-- -------------------------------------------- -->
+<section id="publications"></section>
+<div class="row bg-light">
+  <div class="col-xs-12 col-md-12 portrait" style="margin-top: 1rem">
+    <div class="artworks-title-hm">
+      <h1 class="display-6">Publications</h1>
+      <!-- <p style="margin-bottom: 0.5rem; font-size: 1rem" class="lead text-secondary">For a complete list, kindly check this <a href="{{ site.baseurl }}/artworks/">page</a></p> -->
+    </div>
+  </div>
+  <div class="col-xs-12 col-md-12" style="margin-bottom: 1rem">
+   <ol class="citation">
+   {% assign i = 1 %}
+   {% for pub in site.data.publications %}
+       <li id="pub"><p>{{ pub.title }}, {{ pub.proceeding }}</p>
+     {% assign i = i | plus:1 %}
+     {% if i == 7 %}
+       {% break %}
+     {% endif %}
+   {% endfor %}
+  </ol>
+  </div>
+</div>
+
+<!-- -------------------------------------------- -->
 <!-- Project Section -->
 <!-- -------------------------------------------- -->
 <section id="acad-projects"></section>
-<div class="row">
+<div class="row border">
   <div class="col-xs-12 col-md-12 portrait">
-    <div class="project-title-hm bg-light">
+    <div class="project-title-hm">
       <h1 class="display-6">Projects</h1>
-      <p style="margin-bottom: 0.5rem; font-size: 1rem" class="lead text-secondary">For a complete list, kindly check this <a href="{{ site.baseurl }}/projects/">page</a></p>
+      <p style="margin-bottom: 0.0rem; font-size: 1rem" class="lead text-secondary">For a complete list, kindly check this <a href="{{ site.baseurl }}/projects/">page</a></p>
     </div>
   </div>
 
@@ -125,6 +149,8 @@ type: home
     {% endfor %}
   </div>
 </div>
+
+<br>
 
 <!-- -------------------------------------------- -->
 <!-- Artworks Section -->
