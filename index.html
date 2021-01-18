@@ -89,7 +89,7 @@ type: home
    <ol class="citation">
    {% assign i = 1 %}
    {% for pub in site.data.publications %}
-       <li id="pub"><p>{{ pub.title }}, {{ pub.proceeding }}</p>
+       <li id="pub"><p>{{ pub.title }}, {{ pub.proceeding }} [ <a href="{{ pub.paper }}" target="_blank">paper</a> ]</p>
      {% assign i = i | plus:1 %}
      {% if i == 7 %}
        {% break %}
@@ -108,6 +108,7 @@ type: home
     <div class="project-title-hm">
       <h1 class="display-6">Projects</h1>
       <p style="margin-bottom: 0.0rem; font-size: 1rem" class="lead text-secondary">For a complete list, kindly check this <a href="{{ site.baseurl }}/projects/">page</a></p>
+      NOT UPDATED!
     </div>
   </div>
 
