@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Cooperative Localization Using Posterior Linearization Belief Propagation
+tags: [other]
 abstract: Implementation of a research paper, which presents the Posterior Linearization Belief Propagation algorithm for cooperative localization in Sensor Networks
 ---
 - Implementation of a research paper, which presents the PLBP algorithm for cooperative localization

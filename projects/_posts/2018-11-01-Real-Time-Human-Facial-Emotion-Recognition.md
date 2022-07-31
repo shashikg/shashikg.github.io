@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Real Time Human Facial Emotion Recognition
-tags: [test, sample]
+tags: [other]
 abstract: Extracts human faces (using OpenCV haar-cascade/ dnn based classifier) from a camera stream and classifies them into 7 different moods i.e. Angry, Disgust, Fear, Happy, Sad, Surprise and Neutral.
 ---
 - Extracts human faces (using OpenCV haar-cascade/ dnn based classifier) from a camera stream and

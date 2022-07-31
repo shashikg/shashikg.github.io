@@ -14,14 +14,15 @@ social-accounts:
   twitter: "shashikg_iitk"
   youtube: "UCD1ELtVIfZnmIGbfVT9bHXQ"
   github: "shashikg"
-  email: "shashikg@iitk.ac.in"
+  email: "shashikg.iitk@gmail.com"
   linkedin: "in/shashikg"
+  google_scholar: "0I5BPCwAAAAJ"
 
 author:
   name: "Shashi Kant Gupta"
-  jobTitle: "Final Year, Dual-Degree (BT-MT) Student<br>Department of Electrical Engineering"
-  orgName: "Indian Institute of Technology Kanpur"
-  orgURL: "https://www.iitk.ac.in/"
+  jobTitle: "Data Scientist (Conversational AI)"
+  orgName: "RingCentral Innovation (India) Pvt Ltd"
+  orgURL: "https://www.ringcentral.com/"
 
 sass:
   sass_dir: _sass

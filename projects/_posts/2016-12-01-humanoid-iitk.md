@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Humanoid IITK
+tags: [other]
 abstract:  Design and development of Institute’s first Humanoid Robot (AUTOMI). Important contributions are in the development of bipedal walking algorithm and in computer vision team.
 ---
 - Helped the team in designing and developing the Institute’s first Humanoid Robot (AUTOMI)

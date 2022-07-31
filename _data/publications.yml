@@ -1,3 +1,11 @@
+- title: <b>Shashi Kant Gupta</b>, Mengmi Zhang, Chia-Chien Wu, Jeremy M. Wolfe, Gabriel Kreiman "Visual Search Asymmetry Deep Nets and Humans Share Similar Inherent Biases"
+  proceeding: Thirty-Fifth Conference on Neural Information Processing Systems (NeurIPS 2021)
+  paper: https://openreview.net/forum?id=ar85GL0N11
+
+- title: Shivi Gupta, <b>Shashi Kant Gupta</b> "Investigating Emotion-Color Association in Deep Neural Networks"
+  proceeding: Annual Conference of the Cognitive Science Society 2021 (Abstract)
+  paper: https://arxiv.org/pdf/2011.11058.pdf
+
 - title: <b>Shashi Kant Gupta</b> "Reinforcement Based Learning on Classification Task Could Yield Better Generalisation and Adversarial Accuracy"
   proceeding: Workshop on Shared Visual Representations in Human and Machine Intelligence (SVRHM), Neural Information Processing Systems 2020 (NeurIPS 2020)
   paper: https://arxiv.org/pdf/2012.04353.pdf
@@ -5,7 +13,3 @@
 - title: <b>Shashi Kant Gupta</b> "A More Biologically Plausible Local Learning Rule for ANNs"
   proceeding: Beyond Backpropagation Workshop, Neural Information Processing Systems 2020 (NeurIPS 2020)
   paper: https://arxiv.org/pdf/2011.12012.pdf
-
-- title: Shivi Gupta, <b>Shashi Kant Gupta</b> "Investigating Emotion-Color Association in Deep Neural Networks"
-  proceeding: arXiv preprint 2020
-  paper: https://arxiv.org/pdf/2011.11058.pdf

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Optical Flow for Localisation of UAVs in Deep Tunnel
+tags: [other]
 abstract: Worked on the Optical Flow algorithm based on SAD block matching to determine UAV position in deep tunnels i.e. GPS denied environment.
 ---
 - Worked on the Optical Flow algorithm based on SAD block matching to determine UAV position in

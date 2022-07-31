@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How Close are Artificial Neural Networks to the Brain?
+tags: [ucog, chm]
 abstract: Study of some existing Artificial Neural Networks models to compare their structure and performance and also to realise their biological resemblance to the processing in the brain. To bridge the gap between Deep Learning and Neuroscience.
 ---
 Artificial Neural Networks were modelled after deriving analogies from the structure of brain in hope of getting close to do things in the way how our brain does and hoping it to give a good set of results on tasks which brain performs well. Several anologies has been developed and are performing incredibly well in their domain. But neuroscientists have mostly criticised about ANN and Deep Learning models as to be just a bunch of computation with nothing as close to how real brain works. So, here we tried to answer about this critisim by analysing the already existing models and relating their closeness to the brain.
