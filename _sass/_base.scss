@@ -2,14 +2,6 @@ body {
   padding-top: 5rem;
 }
 
-.citation {
- font-family: "Roboto Mono"
-}
-
-#pub {
- margin-bottom: 1.5rem;
-}
-
 #about {
   padding: 2rem 0rem;
   padding-bottom: 0rem;
@@ -227,4 +219,24 @@ footer {
 .photo-grid {
   padding: 0rem 1.3rem;
   padding-bottom: 1.5rem;
+}
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// Homepage pubs  >>>>>>>>>>>>>>>>>
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+#pub-title {
+ margin-bottom: 1rem;
+ font-family: "Roboto Mono"
+}
+
+#pub-abstract {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  // padding-top: 0.7rem;
+  font-size: 0.85rem;
+  // font-weight: 4.5;
+  text-align: justify;
+  text-justify: inter-word;
 }

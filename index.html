@@ -89,16 +89,29 @@ type: home
     </div>
   </div>
   <div class="col-xs-12 col-md-12" style="margin-bottom: 1rem; font-size: 0.85rem">
-   <ol class="citation">
-   {% assign i = 1 %}
-   {% for pub in site.data.publications %}
-       <li id="pub"><p>{{ pub.title }}, <i>{{ pub.proceeding }}</i> [<a href="{{ pub.paper }}" target="_blank">paper</a>]</p>
-     {% assign i = i | plus:1 %}
-     {% if i == 7 %}
-       {% break %}
-     {% endif %}
-   {% endfor %}
-  </ol>
+    <ol id="publications-accordion">
+     {% assign i = 1 %}
+     {% for pub in site.data.publications %}
+        <li id="pub-title">
+          <div  id="pub-heading-{{i}}">
+            {{ pub.title }}, <i>{{ pub.proceeding }}</i>
+            [<a href="#pub-abstract-{{i}}" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="pub-abstract-{{i}}">abstract</a>]
+            [<a href="{{ pub.paper }}" target="_blank">paper</a>]
+          </div>
+        </li>
+
+        <div class="collapse" id="pub-abstract-{{i}}" aria-labelledby="pub-heading-{{i}}" data-parent="#publications-accordion">
+          <!-- <br> -->
+          <div id="pub-abstract" class="border border-dark">
+            {{ pub.abstract }}
+          </div>
+        </div>
+       {% assign i = i | plus:1 %}
+       {% if i == 7 %}
+         {% break %}
+       {% endif %}
+     {% endfor %}
+    </ol>
   </div>
 </div>
 
