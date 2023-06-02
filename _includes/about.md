@@ -1,4 +1,4 @@
-I am a <b>Data Scientist</b> in the <b>Conversational AI Team</b> at RingCentral Innovation (India). At RingCentral, I have worked on <b>multilingual speech recongition</b>, <b>text punctuation restoration</b>, and <b>spoken language identification</b>.
+I am a <b>Data Scientist</b> in the <b>Conversational AI Team</b> at RingCentral Innovation (India). At RingCentral, I have worked on <b>multilingual speech recongition</b>, <b>text punctuation restoration</b>, <b>speaker identification</b> and <b>spoken language identification</b>.
 <br><br>
 Before joining RingCentral, I completed my bachelor + master degree from IIT Kanpur, where I was advised by
 <a href="http://klab.tch.harvard.edu/" target="\_blank">Dr. Gabriel Kreiman</a> (Harvard Medical School, Boston, USA) and
