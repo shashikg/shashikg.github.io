@@ -24,7 +24,7 @@ layout: page
 
 <div class="row justify-content-md-center">
   <div class="col-xs-12 col-md-9">
-    {% for post in site.categories.projects %}
+    {% for post in paginator.posts %}
         <div class="project bg-light">
           <div class="project-header border-bottom">
             <h2 class="project-title">{{ post.title }}</h2>
