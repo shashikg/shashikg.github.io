@@ -2,9 +2,9 @@ title: Shashi Kant Gupta
 description: "My Homepage"
 url: "https://shashikg.github.io"
 
-# paginate: 5
-# paginate_path: "/page:num/"
-# plugins: [jekyll-paginate]
+paginate: 5
+paginate_path: "/page:num/"
+plugins: [jekyll-paginate]
 
 markdown: kramdown
 highlighter: rouge
