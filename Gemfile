@@ -12,6 +12,7 @@ source "http://rubygems.org"
 
 gem "minima"
 gem 'jekyll-paginate'
+gem 'jekyll-paginate-multiple'
 gem 'kramdown'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
