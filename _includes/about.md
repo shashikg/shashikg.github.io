@@ -1,5 +1,5 @@
 I am currently serving as a <b>Lead NLP Researcher</b> at Triomics, where I focus on harnessing LLMs and Generative AI to extract insights from Electronic Health Records (EHR) of cancer patients, with the goal of enhancing oncology research and care. Before joining Triomics, I held the position of <b>Data Scientist (MLE-3)</b> at RingCentral Innovation (India), where I specialized primarily in addressing Speech and NLP-related challenges for Conversational AI.
-
+<br><br>
 Before joining industry, I completed my bachelor + master degree from IIT Kanpur, where I was advised by
 <a href="http://klab.tch.harvard.edu/" target="\_blank">Dr. Gabriel Kreiman</a> (Harvard Medical School, Boston, USA) and
 <a href="https://home.iitk.ac.in/~venkats/" target="\_blank">Prof. K. S. Venkatesh</a> (IIT Kanpur, India).
