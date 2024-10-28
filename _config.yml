@@ -20,9 +20,9 @@ social-accounts:
 
 author:
   name: "Shashi Kant Gupta"
-  jobTitle: "Data Scientist (Conversational AI)"
-  orgName: "RingCentral Innovation (India) Pvt Ltd"
-  orgURL: "https://www.ringcentral.com/"
+  jobTitle: "Lead NLP Researcher"
+  orgName: "Triomics"
+  orgURL: "https://www.triomics.com/"
 
 sass:
   sass_dir: _sass
