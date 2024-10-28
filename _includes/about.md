@@ -1,11 +1,11 @@
-I am a <b>Data Scientist</b> in the <b>Conversational AI Team</b> at RingCentral Innovation (India). At RingCentral, I have worked on <b>multilingual speech recongition</b>, <b>text punctuation restoration</b>, <b>speaker identification</b> and <b>spoken language identification</b>.
-<br><br>
-Before joining RingCentral, I completed my bachelor + master degree from IIT Kanpur, where I was advised by
+I am currently serving as a <b>Lead NLP Researcher</b> at Triomics, where I focus on harnessing LLMs and Generative AI to extract insights from Electronic Health Records (EHR) of cancer patients, with the goal of enhancing oncology research and care. Before joining Triomics, I held the position of <b>Data Scientist (MLE-3)</b> at RingCentral Innovation (India), where I specialized primarily in addressing Speech and NLP-related challenges for Conversational AI.
+
+Before joining industry, I completed my bachelor + master degree from IIT Kanpur, where I was advised by
 <a href="http://klab.tch.harvard.edu/" target="\_blank">Dr. Gabriel Kreiman</a> (Harvard Medical School, Boston, USA) and
 <a href="https://home.iitk.ac.in/~venkats/" target="\_blank">Prof. K. S. Venkatesh</a> (IIT Kanpur, India).
 For my master thesis (<a href="{{ site.url }}/files/thesis.pdf" target="\_blank">An Integrated Computational Model of Visual Search Combining Eccentricity, Bottom-up, and Top-down Cues</a>), I worked on the intersection of <b>computer vision</b>, <b>deep learning</b>, <b>cognitive sciences</b>, and <b>neuroscience</b>. During my undergraduate years, I was awarded the prestigious <b>Khoran Scholarship</b> by <a href="https://iusstf.org/khorana-program-for-scholars" target="\_blank">IUSSTF, WINStep and DBT (India)</a> to work with Dr. Gabriel Kreiman at Harvard Medical School, Boston, USA on <b>computational neuroscience</b> and <b>deep learning</b>. Before that, I also touched upon <b>robotics</b> during my internship at the <a href="https://www.sutd.edu.sg/Research/Research-Centres/ST-Engineering-SUTD-Centre-for-Smart-Systems" target="\_blank">Centre for Smart System</a>, SUTD Singapore and as a part of <a href="https://www.facebook.com/HumanoidIITK/" target="\_blank">Humanoid IITK Team</a>. During my academic career, I have had the good fortune to work with some incredible researchers, <a href="http://klab.tch.harvard.edu/">Dr. Gabriel Kreiman</a> (Harvard Medical School, Boston, and CBMM, MIT), <a href="https://a0091624.wixsite.com/deepneurocognition-1">Mengmi Zhang</a> (NTU Singapore, and A \*STAR Singapore), <a href="https://home.iitk.ac.in/~venkats/">Prof. K. S. Venkatesh</a> (IIT Kanpur India), and <a href="https://www.cse.iitk.ac.in/users/nsrivast/">Prof. Nisheeth Srivastava</a> (IIT Kanpur India). 
 <br><br>
-During my free time, I love to do <b>gardening</b>, <b>pencil sketching</b>, <b>kirigami</b>, and watching <b>animes</b>.
+During my free time, I love to do <b>gardening</b>, <b>pencil sketching</b>, <b>kirigami</b>, and watching <b>animes</b>. I also love 😴 (more than 50% of time).
 
 
 <!-- The title of my thesis was <b>"An Integrated Computational Model of Visual
